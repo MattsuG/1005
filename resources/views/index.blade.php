@@ -6,7 +6,7 @@
 <link rel="stylesheet" href="{{{asset('/assets/bootstrap/css/bootstrap.min.css')}}}">
 <link rel="stylesheet" href="{{{asset('/assets/font-awesome/css/font-awesome.min.css')}}}">
 <link rel="stylesheet" href="{{{asset('/assets/css/animate.css')}}}">
-<link rel="stylesheet" href="{{{asset('/assets/css/style.css')}}}">
+<link rel="stylesheet" href="{{{asset('/assets/css/style_pre_index.css')}}}">
 <link rel="stylesheet" href="{{{asset('/assets/css/media-queries.css')}}}">
 @stop
 
