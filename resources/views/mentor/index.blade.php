@@ -1,6 +1,6 @@
 @extends('common.layout')
 @section('TitleAndCss')
-<title>show.php | メンター一覧</title>
+<title>show.php | トーク一覧</title>
 
 <link rel="stylesheet" href="{{{asset('/assets/bootstrap/css/bootstrap.min.css')}}}">
 <link rel="stylesheet" href="{{{asset('/assets/font-awesome/css/font-awesome.min.css')}}}">
@@ -19,7 +19,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element"> <span>
-                            <img alt="image" class="img-circle" src="img/1.jpg" />
+                            <img alt="image" class="img-circle" src="{{{asset('/assets/img/about/1.jpg')}}}" />
                              </span>
                         <a class="dropdown-toggle" href="#">
                             <span class="clear"> 
@@ -43,7 +43,7 @@
                         </ul>
                     </div>
                     <div class="logo-element">
-                        プロトタイプ
+                        +ヒト
                     </div>
                 </li>
                 <!-- <li>
@@ -200,13 +200,13 @@
         </div>
             <div class="row wrapper border-bottom white-bg page-heading">
                 <div class="col-lg-9ƒ">
-                    <h2>メンター一覧</h2>
+                    <h2>トーク一覧</h2>
                     <ol class="breadcrumb">
                         <li>
                             <a href="/">ホーム</a>
                         </li>
                         <li class="active">
-                            <strong>メンター一覧</strong>
+                            <strong>トーク一覧</strong>
                         </li>
                     </ol>
                 </div>
