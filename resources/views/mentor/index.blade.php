@@ -57,7 +57,7 @@
                     </ul>
                 </li> -->
                 <li>
-                    <a href="layouts.html"><i class="fa fa-plus"></i> <span class="nav-label">トーク作成</span></a>
+                    <a href="add"><i class="fa fa-plus"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
