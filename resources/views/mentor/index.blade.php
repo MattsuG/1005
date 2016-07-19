@@ -85,7 +85,12 @@
         </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-sm text-muted welcome-message">メンター一覧ページへようこそ</span>
+                    <span class="m-r-sm text-muted welcome-message">トーク一覧ページへようこそ</span>
+                </li>
+                <li>
+                    <a href="/">
+                        <i class="fa fa-home"></i>
+                    </a>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
@@ -198,7 +203,7 @@
                     <h2>メンター一覧</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="index.html">ホーム</a>
+                            <a href="/">ホーム</a>
                         </li>
                         <li class="active">
                             <strong>メンター一覧</strong>
