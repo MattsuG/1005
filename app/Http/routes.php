@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('mentor', function () {
     return view('mentor/index');
 });
+
+Route::get('mentor/add', function () {
+    return view('mentor/add');
+});
