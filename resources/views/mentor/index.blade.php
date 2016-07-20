@@ -293,8 +293,12 @@
                                     <li>その他箇条書きにできるもの</li>                              
                                 </ul>
                             </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">メッセージ</a>
+                            <div class="user-button">
+                                <div class="row">
+                                    <div class="col-md-10">
+                                        <a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a>
+                                    </div>
+                                </div>
                             </div>
                         </div>
                     </div>
