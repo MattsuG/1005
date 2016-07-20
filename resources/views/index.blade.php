@@ -28,13 +28,13 @@
 							<span class="icon-bar"></span>
 							<span class="icon-bar"></span>
 						</button>
-						<a class="navbar-brand" href="index.html">Marco - Bootstrap Landing Page</a>
+						<a class="navbar-brand" href="/">Marco - Bootstrap Landing Page</a>
 					</div>
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="top-navbar-1">
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="scroll-link" href="#features">プロトタイプについて</a></li>
-							<li><a class="scroll-link" href="#pricing">メンター検索</a></li>
+							<li><a class="" href="/mentor/">メンター検索</a></li>
 							<li><a class="scroll-link" href="#about-us">ログイン</a></li>
 							<li><a class="btn btn-link-2" href="#contact">サインアップ</a></li>
 						</ul>
@@ -47,19 +47,19 @@
                 	
                     <div class="row">
                         <div class="col-sm-8 col-sm-offset-2 text">
-                            <h1 class="wow fadeInLeftBig">プロトタイプです</h1>
+                            <h1 class="wow fadeInLeftBig">+ヒト</h1>
                             <div class="description wow fadeInLeftBig">
                             	<p>
-	                            	想い想いの進路を辿る人達から、具体性と熱量のある情報をそのままに聞けるプロジェクトです。
+	                            進路に関わる生の情報を自分のネットワークを越えて入手できる様に、体験者とマッチアップするサービスです。直接話すことで他の媒体からは手に入りにくい生の情報を効率良く聞くことができます。
                             	</p>
                             </div>
                             <div class="subscribe wow fadeInUp">
 	                			<form class="form-inline" role="form" action="assets/subscribe.php" method="post">
 			                    	<div class="form-group">
-			                    		<label class="sr-only" for="subscribe-email">Email address</label>
-			                        	<input type="text" name="email" placeholder="Enter your email..." class="subscribe-email form-control" id="subscribe-email">
+			                    		<label class="sr-only" for="subscribe-email"></label>
+			                        	<input type="text" name="email" placeholder="カテゴリ検索" class="subscribe-email form-control" id="subscribe-email">
 			                        </div>
-			                        <button type="submit" class="btn">Subscribe</button>
+			                        <button type="submit" class="btn">検索</button>
 			                    </form>
 			                    <div class="success-message"></div>
                             </div>
@@ -359,7 +359,8 @@
 	                				</div>
 	                				<div class="testimonial-text">
 		                                <p>
-		                                	"wwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwwww"<br>
+		                                	"留学か、進学か、就職か迷っている。そんなときに、
+											→それぞれの進路を歩んだヒトたち"<br>
 		                                	<a href="#">wwwwwwwwwwwwww, wwwwww.co.uk</a>
 		                                </p>
 	                                </div>
@@ -373,9 +374,7 @@
 	                				</div>
 	                				<div class="testimonial-text">
 		                                <p>
-		                                	"xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-		                                	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx
-		                                	xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"<br>
+		                                	"進路選択で失敗した経験、どの様に取り戻していったか、その辺りを聞きたいときに、→失敗談を語れるヒトたち"<br>
 		                                	<a href="#">xxxxxxxxxxx, xxxxxxxxxxxx.com</a>
 		                                </p>
 	                                </div>
@@ -389,26 +388,8 @@
 	                				</div>
 	                				<div class="testimonial-text">
 		                                <p>
-		                                	"yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-		                                	yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy
-		                                	yyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyyy"<br>
+		                                	"転職か、今の会社に残るのか、迷ったときに、→同じ悩みを持っていたヒトたち"<br>
 		                                	<a href="#">yyyyyyyyyy, yyyyyy.co.uk</a>
-		                                </p>
-	                                </div>
-	                			</div>
-	                			<div role="tabpanel" class="tab-pane fade" id="tab4">
-	                				<div class="testimonial-image">
-	                					<img src="{{{asset('/assets/img/testimonials/4.jpg')}}}" alt="" data-at2x="assets/img/testimonials/4.jpg')}}}">
-	                					<div class="testimonial-icon">
-	                						<span aria-hidden="true" class="typcn typcn-pin"></span>
-	                					</div>
-	                				</div>
-	                				<div class="testimonial-text">
-		                                <p>
-		                                	"zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-		                                	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz
-		                                	zzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz"<br>
-		                                	<a href="#">zzzzzzzzzzzzzzzzzzzzz, zzzzzzzzzzz.com</a>
 		                                </p>
 	                                </div>
 	                			</div>
@@ -423,9 +404,6 @@
 	                			</li>
 	                			<li role="presentation">
 	                				<a href="#tab3" aria-controls="tab3" role="tab" data-toggle="tab"></a>
-	                			</li>
-	                			<li role="presentation">
-	                				<a href="#tab4" aria-controls="tab4" role="tab" data-toggle="tab"></a>
 	                			</li>
 	                		</ul>
 	                	</div>
