@@ -1,6 +1,6 @@
 @extends('common.layout')
 @section('TitleAndCss')
-<title>show.php | メンター一覧</title>
+<title>show.php | トーク一覧</title>
 
 <link rel="stylesheet" href="{{{asset('/assets/bootstrap/css/bootstrap.min.css')}}}">
 <link rel="stylesheet" href="{{{asset('/assets/font-awesome/css/font-awesome.min.css')}}}">
@@ -19,7 +19,7 @@
             <ul class="nav metismenu" id="side-menu">
                 <li class="nav-header">
                     <div class="dropdown profile-element"> <span>
-                            <img alt="image" class="img-circle" src="img/1.jpg" />
+                            <img alt="image" class="img-circle" src="{{{asset('/assets/img/about/1.jpg')}}}" />
                              </span>
                         <a class="dropdown-toggle" href="#">
                             <span class="clear"> 
@@ -43,7 +43,7 @@
                         </ul>
                     </div>
                     <div class="logo-element">
-                        プロトタイプ
+                        +ヒト
                     </div>
                 </li>
                 <!-- <li>
@@ -57,7 +57,7 @@
                     </ul>
                 </li> -->
                 <li>
-                    <a href="layouts.html"><i class="fa fa-plus"></i> <span class="nav-label">トーク作成</span></a>
+                    <a href="add"><i class="fa fa-plus"></i> <span class="nav-label">トーク作成</span></a>
                 </li>
                 <li>
                     <a href="#"><i class="fa fa-pencil"></i> <span class="nav-label">アカウント編集</span><span class="fa arrow"></span></a>
@@ -85,7 +85,12 @@
         </div>
             <ul class="nav navbar-top-links navbar-right">
                 <li>
-                    <span class="m-r-sm text-muted welcome-message">メンター一覧ページへようこそ</span>
+                    <span class="m-r-sm text-muted welcome-message">トーク一覧ページへようこそ</span>
+                </li>
+                <li>
+                    <a href="/">
+                        <i class="fa fa-home"></i>
+                    </a>
                 </li>
                 <li class="dropdown">
                     <a class="dropdown-toggle count-info" data-toggle="dropdown" href="#">
@@ -193,15 +198,15 @@
 
         </nav>
         </div>
-            <div class="row wrapper border-bottom white-bg page-heading">
+            <div class="row wrapper border-bottom white-bg page-heading inbox-title">
                 <div class="col-lg-9ƒ">
-                    <h2>メンター一覧</h2>
+                    <h2>トーク一覧</h2>
                     <ol class="breadcrumb">
                         <li>
-                            <a href="index.html">ホーム</a>
+                            <a href="/">ホーム</a>
                         </li>
                         <li class="active">
-                            <strong>メンター一覧</strong>
+                            <strong>トーク一覧</strong>
                         </li>
                     </ol>
                 </div>
@@ -284,12 +289,10 @@
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">メッセージ</a>
                             </div>
                         </div>
                     </div>
@@ -302,12 +305,10 @@
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">メッセージ</a>
                             </div>
                         </div>
                     </div>
@@ -320,84 +321,74 @@
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">メッセージ</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                         <div class="pricing-box-inner">
                             <div class="pricing-box-price">
-                            <img src="assets/img/about/1.jpg" alt="">
+                            <img src="img/headphones.jpg" alt="">
                             </div>
                             <h3>タイトル</h3>
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">メッセージ</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                         <div class="pricing-box-inner">
                             <div class="pricing-box-price">
-                            <img src="assets/img/about/1.jpg" alt="">
+                            <img src="img/headphones.jpg" alt="">
                             </div>
                             <h3>タイトル</h3>
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">メッセージ</a>
                             </div>
                         </div>
                     </div>
                     <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                         <div class="pricing-box-inner">
                             <div class="pricing-box-price">
-                            <img src="assets/img/about/1.jpg" alt="">
+                            <img src="img/headphones.jpg" alt="">
                             </div>
                             <h3>タイトル</h3>
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">もっとみる</a>
                             </div>
                         </div>
                     </div>
-                    <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown" style="margin-bottom: 30px;">
+                    <div class="col-sm-4 pricing-box pricing-box-best wow fadeInDown">
                         <div class="pricing-box-inner">
                             <div class="pricing-box-price">
-                            <img src="assets/img/about/1.jpg" alt="">
+                            <img src="img/headphones.jpg" alt="">
                             </div>
                             <h3>タイトル</h3>
                             <h4>概要を記入。文章が長くなった場合はどうなるか。文章が長くなった場合はどうなるか文章が長くなった場合はどうなるか。</h4>
                             <div class="pricing-box-features">
                                 <ul>
-                                    <li>その他箇条書きにできるもの</li>
-                                    <li>その他箇条書きにできるもの</li>                              
+                                    <li>カテゴリ</li>
+                                    <li>価格</li>
+                                    <li><a href="/mentor/show"><button type="button" class="btn btn-default btn-sm btn-block"><i class="fa fa-envelope"></i> 詳細をみる</button></a></li>                              
                                 </ul>
-                            </div>
-                            <div class="pricing-box-sign-up">
-                                <a class="btn btn-link-1" href="#">もっとみる</a>
                             </div>
                         </div>
                     </div>

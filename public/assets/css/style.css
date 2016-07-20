@@ -16,21 +16,27 @@ h6 {
 }
 h1 {
   font-size: 30px;
+  font-family: 'Osaka-Mono';
 }
 h2 {
   font-size: 24px;
+  font-family: 'Osaka-Mono';
 }
 h3 {
   font-size: 16px;
+  font-family: 'Osaka-Mono';
 }
 h4 {
   font-size: 14px;
+  font-family: 'Osaka-Mono';
 }
 h5 {
   font-size: 12px;
+  font-family: 'Osaka-Mono';
 }
 h6 {
   font-size: 10px;
+  font-family: 'Osaka-Mono';
 }
 h3,
 h4,
@@ -180,7 +186,7 @@ h5 {
   color: #DFE4ED;
 }
 .nav-header .text-muted {
-  color: #8095a8;
+  color: #ffffff;
 }
 .minimalize-styl-2 {
   padding: 4px 12px;
@@ -619,8 +625,8 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
   color: #fff;
 }
 .btn-primary {
-  background-color: #1ab394;
-  border-color: #1ab394;
+  background-color: #999c9e;
+  border-color: #999c9e;
   color: #FFFFFF;
 }
 .btn-primary:hover,
@@ -632,8 +638,8 @@ body.canvas-menu.mini-navbar nav.navbar-static-side {
 .btn-primary:active:hover,
 .btn-primary.active:hover,
 .btn-primary.active:focus {
-  background-color: #18a689;
-  border-color: #18a689;
+  background-color: #cfcfcf;
+  border-color: #cfcfcf;
   color: #FFFFFF;
 }
 .btn-primary:active,
@@ -742,7 +748,7 @@ fieldset[disabled] .btn-info.active {
   border-color: #26d7d9;
 }
 .btn-default {
-  color: inherit;
+  color: grey;
   background: white;
   border: 1px solid #e7eaec;
 }
@@ -1056,7 +1062,7 @@ button.dim:active:before {
 }
 .label-primary,
 .badge-primary {
-  background-color: #1ab394;
+  background-color: #ff6060;
   color: #FFFFFF;
 }
 .label-success,
@@ -1066,7 +1072,7 @@ button.dim:active:before {
 }
 .label-warning,
 .badge-warning {
-  background-color: #f8ac59;
+  background-color: #ff6060;
   color: #FFFFFF;
 }
 .label-warning-light,
@@ -1623,6 +1629,8 @@ div.dt-button-info {
 /* CIRCLE */
 .img-circle {
   border-radius: 50%;
+  height: 100px;
+  width: 100px;
 }
 .btn-circle {
   width: 30px;
@@ -3300,7 +3308,7 @@ body.tour-open .animated {
 }
 body {
   font-family: "open sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
-  background-color: #2f4050;
+  background-color: #999c9e;
   font-size: 13px;
   color: #676a6c;
   overflow-x: hidden;
@@ -3486,6 +3494,7 @@ ol.unstyled {
 .footer {
   background: none repeat scroll 0 0 white;
   border-top: 1px solid #e7eaec;
+  margin-top: 0px;
   bottom: 0;
   left: 0;
   padding: 10px 20px;
@@ -3530,7 +3539,8 @@ body.body-small .footer.fixed {
 /* PANELS */
 .page-heading {
   border-top: 0;
-  padding: 0 10px 20px 10px;
+  padding: 0 10px 20px 30px;
+  text-align: left;
 }
 .panel-heading h1,
 .panel-heading h2 {
