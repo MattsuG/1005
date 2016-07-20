@@ -22,3 +22,7 @@ Route::get('mentor', function () {
 Route::get('mentor/add', function () {
     return view('mentor/add');
 });
+
+Route::get('mentor/show', function () {
+    return view('mentor/show');
+});
