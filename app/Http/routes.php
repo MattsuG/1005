@@ -15,6 +15,10 @@ Route::get('/', function () {
     return view('index');
 });
 
+Route::get('join/signup', function () {
+    return view('join/signup');
+});
+
 Route::get('mentor', function () {
     return view('mentor/index');
 });
