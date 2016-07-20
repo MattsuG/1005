@@ -23,7 +23,7 @@
                 <!--Continually expanded and constantly improved Inspinia Admin Them (IN+)-->
             </p>
             <p>xxxxxxxxxxxxxxxxxxxxxxxx.</p>
-            <form class="m-t" role="form" action="index.html">
+            <form class="m-t" role="form" action="mentor">
                 <div class="form-group">
                     <input type="email" class="form-control" placeholder="Username" required="">
                 </div>
