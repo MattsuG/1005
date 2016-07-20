@@ -35,8 +35,8 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="scroll-link" href="#features">プロトタイプについて</a></li>
 							<li><a class="" href="/mentor/">メンター検索</a></li>
-							<li><a class="scroll-link" href="#about-us">ログイン</a></li>
-							<li><a class="btn btn-link-2" href="#contact">サインアップ</a></li>
+							<li><a class="scroll-link" href="login">ログイン</a></li>
+							<li><a class="btn btn-link-2" href="join/signup">サインアップ</a></li>
 						</ul>
 					</div>
 				</div>
