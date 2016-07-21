@@ -1,6 +1,6 @@
 
 body {
-    font-family: 'Osaka';
+    font-family: 'arial';
     font-size: 14px;
     font-weight: 300;
     color: #888;
@@ -240,7 +240,7 @@ ul.navbar-nav {
     padding: 0 20px;
     vertical-align: middle;
     background: #fff;
-    border: 0px solid #000;
+    /*border: 0px solid #000;*/
     font-family: 'Roboto', sans-serif;
     font-size: 16px;
     font-weight: 300;
