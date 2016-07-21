@@ -6,7 +6,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
     @yield('TitleAndCss')
 </head>
-<body>
+<body class="gray-bg">
 	@yield('content')
 	@yield('Js')
 </body>
