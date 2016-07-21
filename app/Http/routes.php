@@ -19,6 +19,10 @@ Route::get('login', function () {
     return view('login');
 });
 
+Route::get('signup', function () {
+    return view('join/signup');
+});
+
 Route::get('mentor', function () {
     return view('mentor/index');
 });
