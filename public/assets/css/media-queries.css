@@ -97,8 +97,8 @@ only screen and (                min-resolution: 2dppx) {
 	
 	/* logo */
     .navbar-brand {
-
     	background-image: url(../img/inqlogo.png) !important; background-repeat: no-repeat !important; background-size: 97px 29px !important;
+
     }
 	
 }
