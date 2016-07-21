@@ -20,7 +20,7 @@ Route::get('login', function () {
     return view('login');
 });
 
-Route::get('signup', function () {
+Route::get('join/signup', function () {
     return view('join/signup');
 });
 

@@ -35,7 +35,7 @@
 						<ul class="nav navbar-nav navbar-right">
 							<li><a class="scroll-link" href="#features">inQについて</a></li>
 							<li><a class="" href="/mentor/">トーク検索</a></li>
-							<li><a class="scroll-link" href="login">ログイン</a></li>
+							<li><a class="" href="/login">ログイン</a></li>
 							<li><a class="btn btn-link-2" href="join/signup">サインアップ</a></li>
 						</ul>
 					</div>
