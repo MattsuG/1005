@@ -24,4 +24,4 @@ Route::get('join/signup', function () {
     return view('join/signup');
 });
 
-Route::resource('mentor', 'App/Controllers/MentorController');
+Route::resource('mentor', 'MentorController');

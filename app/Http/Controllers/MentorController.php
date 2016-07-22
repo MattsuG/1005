@@ -8,12 +8,25 @@ use App\Http\Requests;
 
 class MentorController extends Controller
 {
+
   public function index() 
   {
- 	return view("index");
+ 	return view("mentor.index");
   }
-  public function store()
+
+  public function store(Request $request)
   {
-  	return view::make("index")
+    $this->validate($request, [
+        'title' => 'required|max:50',
+        'category' => 'required|integer',
+        'price' => 'required|integer',
+        'detail' => 'required|max:1000',
+    ]);
+    return view("mentor.confirm");
+  }
+
+  public function create()
+  {
+  	return view("mentor.add");
   }
 }

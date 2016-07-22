@@ -2,7 +2,6 @@
   $(document).ready(function(){
   //edit.php用に、文字数制限のある項目の初期の長さを取得
   $('#title_count').text($('#title').val().length);
-  $('#capacity_count').text($('#capacity').val().length);
   $('#detail_count').text($('#detail').val().length);
 
 });
