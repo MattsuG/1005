@@ -24,14 +24,4 @@ Route::get('join/signup', function () {
     return view('join/signup');
 });
 
-Route::get('mentor', function () {
-    return view('mentor/index');
-});
-
-Route::get('mentor/add', function () {
-    return view('mentor/add');
-});
-
-Route::get('mentor/show', function () {
-    return view('mentor/show');
-});
+Route::resource('mentor', 'App/Controllers/MentorController');

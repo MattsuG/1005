@@ -275,7 +275,10 @@
                 <div class="row">
                     <form role="search" class="navbar-form" action="search_results.html">
                         <div class="form-group">
-                            <input type="text" placeholder="カテゴリ検索" class="form-control" name="top-search" id="top-search">
+                            <select class="form-control" name="search_category">
+                                <option value="0" selected>カテゴリを選択</option>
+                            </select>
+                            <input type="text" placeholder="検索ワード" class="form-control" name="search_word" id="top-search">
                         </div>
                     </form>
                 </div>
